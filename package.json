@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:deploy": "tsc && vite build --config vite-deploy.config.ts"
   },
   "dependencies": {
     "antd": "^4.17.4",
